@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Area_Calculator__Looped_
+// Proof-of-concept Program
+namespace Shape_Area_Calculator
 {
 
     class Program
@@ -250,7 +251,6 @@ namespace Area_Calculator__Looped_
                         Console.WriteLine("    RESTARTING PROGRAM    ");
                         System.Threading.Thread.Sleep(575);
                     }
-
 
                     
                     System.Console.Clear();
