@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace PrimeNumberChecker
+namespace Prime_Number_Checker
 {
     class Program
     {
