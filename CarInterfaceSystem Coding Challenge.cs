@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 // --> Making a program that follows this program's criteria
-namespace Car_Interface_System
+namespace CarInterfaceSystem_Coding_Challenge
 {
     class Program
     {
