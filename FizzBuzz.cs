@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,26 +36,26 @@ namespace FizzBuzz
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.BackgroundColor = ConsoleColor.DarkMagenta; // Combination colour
                     Console.WriteLine("FizzBuzz");  // For multiples of *both* 3 and 5
-                    System.Threading.Thread.Sleep(175);
+                    System.Threading.Thread.Sleep(175); // Short Delay between numbers
                 }
                 else if (Value % 5 == 0)
                 {
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.BackgroundColor = ConsoleColor.Blue;
                     Console.WriteLine("Buzz");  // Just for multiples of 5
-                    System.Threading.Thread.Sleep(175);
+                    System.Threading.Thread.Sleep(175); // Short Delay between numbers
                 }
                 else if (Value % 3 == 0)
                 {
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.BackgroundColor = ConsoleColor.Red;
                     Console.WriteLine("Fizz");  // Just for multiples of 3
-                    System.Threading.Thread.Sleep(175);
+                    System.Threading.Thread.Sleep(175); // Short Delay between numbers
                 }
                 else
                 {
-                    Console.WriteLine("" + Value + "");
-                    System.Threading.Thread.Sleep(175);
+                    Console.WriteLine("" + Value + ""); // Simply output number
+                    System.Threading.Thread.Sleep(175); // Short Delay between numbers
                 }
 
             }
@@ -64,7 +64,7 @@ namespace FizzBuzz
             System.Threading.Thread.Sleep(220);
             Console.WriteLine();
             Console.WriteLine("Press any key to finish.");
-            Console.ReadKey();
+            Console.ReadKey(); // Giving the user time to look at results before allowing them to quit when they choose
         }
     }
 }
